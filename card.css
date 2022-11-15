@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+   
+}
+.mother {
+    /* background-color: black; */
+    height: 800px;
+    width: 600px;
+    position: relative;
+    top: 150px;
+    margin: auto;
+}
+.firstdiv {
+    background-color: white;
+    width: 550px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+#wrapper {
+    display: flex;
+}
+.wrap {
+    display: flex;
+    margin: auto;
+   
+  
+}
+.seconddiv {
+    background-color: rgb(3, 129, 122);
+    width: 275px;
+    height: 220px;
+    
+}
+.thirddiv {
+    background-color: hsl(179, 62%, 43%);
+    width: 275px;
+    height: 220px;
+}
+/* CONTENT STYLING */
+.firstdiv h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(134, 239, 233);;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 20px 0 0 20px;
+}
+.firstp {
+    color: hsl(71, 73%, 54%);
+    font-weight: 800;
+    padding: 0 0 10px 10px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.secondp {
+    font-size: 11px;
+    padding: 0 0 10px 10px;
+    margin-left: 20px;
+    font-weight: 200;
+    opacity: 0.3;
+    line-height: 17px;
+}
+.seconddiv h4 {
+    color: white;
+    margin: 20px 0 5px 20px;
+    padding: 10px;
+}
+.span1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+}
+.span2 {
+    font-weight: 500;
+    color: white;
+    opacity: 0.4;
+}
+.paragraph {
+    margin: 0 0 5px 20px;
+    padding: 10px;
+    font-size: 11px;
+    color: white;
+    opacity: 0.7;
+}
+.seconddiv button {
+    padding: 10px;
+    width: 220px;
+    margin: 20px 0 0 25px;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow:  0 5px 10px rgb(0, 0, 0, 0.5);
+    /* box-shadow: 0px 5px 5px rgba(0, 0, 0, .5) ; */
+}
+.thirddiv h4 {
+    color: white;
+    margin: 20px 0 5px 20px;
+    padding: 10px;
+}
+.thirddiv ul li {
+    list-style-type: none;
+    color: white;
+    font-size: 11px;
+    line-height: 18px;
+   margin-left: 20px;
+   padding-left: 10px;
+   opacity: 0.7;
+}
